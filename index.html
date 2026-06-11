@@ -3,298 +3,216 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A scroll-based digital counterstory about poverty, work, and education.">
+    <meta name="description" content="A short digital counterstory about Mia, school, work, language, and unequal opportunity.">
     <title>After the Bell | A Digital Counterstory</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=20260610-1">
+    <link rel="stylesheet" href="./styles.css?v=20260610-6">
   </head>
   <body>
     <div class="reading-progress" aria-hidden="true"></div>
 
-    <header class="hero" id="top">
+    <header class="story-panel hero-panel" id="top">
       <nav class="nav" aria-label="Story navigation">
         <a class="brand" href="#top">After the Bell</a>
         <a href="#sources">Sources</a>
       </nav>
-      <div class="hero-photo" aria-hidden="true">
-        <img src="assets/students-walking.jpeg?v=20260610-1" alt="">
-      </div>
-      <div class="hero-overlay">
+      <div class="panel-inner hero-inner">
         <p class="eyebrow">A digital counterstory</p>
         <h1>After the Bell, the Work Begins.</h1>
-        <p class="hero-meta">Lily Yu · ENGL 281</p>
+        <p class="hero-meta">Lily Yu | ENGL 281</p>
         <p class="hero-caption">
-          Some students carry more than books: language barriers, family responsibilities, work shifts, and homework waiting past midnight.
+          Some students work twice as hard just to reach the place other students get to start from.
         </p>
       </div>
     </header>
 
-    <main>
-      <section class="scrolly" id="story" aria-label="Scroll story">
-        <div class="sticky-stage" aria-hidden="true">
-          <div class="stage-sky"></div>
-          <div class="clock" data-clock>6:15 AM</div>
-          <div class="scene scene-room is-active" data-scene="0">
-            <img class="scene-photo" src="assets/classroom-child.webp?v=20260610-1" alt="">
-            <div class="room-window"></div>
-            <div class="desk">
-              <div class="lamp"></div>
-              <div class="book"></div>
-              <div class="paper"></div>
-            </div>
-            <div class="bed"></div>
+      
+      <main>
+        <section class="story-panel panel-beginning" aria-label="Beginning section">
+          <div class="panel-inner">
+            <p class="chapter-label">Beginning section</p>
+            <p class="panel-copy">
+              Contrary to the common stock story that all students are provided with equal educational access and that student outcomes reflect their learning ability or work effort, reality shows that education is greatly affected by a student's background and that systematic inequalities in our education system can significantly harm a student's learning outcome and prevent them from reaching their full potential.
+            </p>
           </div>
-          <div class="scene scene-store" data-scene="1">
-            <div class="shelf"></div>
-            <div class="counter"></div>
-            <div class="price-tags">$3.49<br>$6.20<br>$1.99</div>
-          </div>
-          <div class="scene scene-school" data-scene="2">
-            <img class="scene-photo" src="assets/students-walking.jpeg?v=20260610-1" alt="">
-            <div class="board">Quiz Friday</div>
-            <div class="desks"></div>
-            <div class="late-slip">Late</div>
-          </div>
-          <div class="scene scene-data" data-scene="3">
-            <img class="scene-report-image" src="assets/nces-poverty-map-crop.png?v=20260610-1" alt="">
-          </div>
-          <div class="scene scene-choice" data-scene="4">
-            <div class="split-card school-card">Study</div>
-            <div class="split-card work-card">Work</div>
-          </div>
-        </div>
+        </section>
 
-        <article class="story-steps">
-          <section class="step" data-step="0" data-time="6:15 AM">
+        <section class="story-panel panel-counselor" id="story" aria-label="Scene 1">
+          <div class="panel-inner">
             <p class="chapter-label">Scene 1</p>
-            <h2>The meeting is not the beginning.</h2>
-            <p>
-              Mia and her mother arrive at Lincoln High before most of the AP students have even reached
-              their classrooms. Mia is a first-generation immigrant from a low-income family, and she is
-              still adjusting to English while trying to keep up with school.
-            </p>
-            <p>
-              In the guidance office, the walls are covered with motivational quotes that say work hard and
-              you can achieve anything.
-            </p>
-            <p>
-              Mrs. Brown looks through Mia's transcript with a slight frown. Mia has only two AP classes to
-              choose from, and the path she wants is already narrower than it is for many of her classmates.
-            </p>
-          </section>
+                  
+              <h2 class="scene-main-heading">
+                Mia is a first-generation immigrant from a low-income family. She is still learning English while trying to keep pace at Lincoln High.
+              </h2>
 
-          <section class="step" data-step="1" data-time="4:05 PM">
+            <p class="panel-copy">
+              While other students at Lincoln High School head to their AP classes, Mia has to go to a meeting with her school guidance counselor.
+            </p>
+          </div>
+        </section>
+
+        <section class="story-panel panel-advising" aria-label="Scene 2">
+          <div class="panel-inner">
             <p class="chapter-label">Scene 2</p>
-            <h2>After school, another shift starts.</h2>
-            <p>
-              Mrs. Brown says Mia should study harder if she wants to pass her classes and graduate, then asks
-              whether she has thought about college. Mia says she wants to study engineering at the state
-              college.
+            <h2>The dream sounds possible until someone lists the price of admission.</h2>
+            <p class="panel-copy">
+              Mrs. Brown tells Mia that college engineering programs require AP classes, test scores, robotics, and polished extracurriculars,
+              even though Mia's school offers only two AP classes.
             </p>
-            <aside class="research-card">
-              <strong>Research thread:</strong> Student-voice reporting from The Hechinger Report and NCES
-              data show how language barriers, work, family care, and uneven school access can shape the
-              opportunities students have to reach college.
-            </aside>
-          </section>
+          </div>
+        </section>
 
-          <section class="step" data-step="2" data-time="8:42 AM">
+        <section class="story-panel panel-work" aria-label="Scene 3">
+          <div class="panel-inner">
             <p class="chapter-label">Scene 3</p>
-            <h2>The transcript does not show the whole day.</h2>
-            <p>
-              Mrs. Brown hesitates and explains that the engineering program is competitive. Students usually
-              need AP classes, a high GPA, strong SAT scores, and club or robotics experience to get in.
-              Mia looks down because robotics and the clubs meet after school, when she is babysitting her two
-              younger siblings.
+            <h2>After school, the hours that build a resume belong to somebody else.</h2>
+            <p class="panel-copy">
+              Clubs meet while Mia babysits her younger siblings, and weekends that could hold tutoring or competitions
+              become dishwashing shifts to help her parents pay rent.
             </p>
-            <p>
-              Competitions and tutoring happen on weekends, when Mia is washing dishes at a restaurant to help
-              her parents pay rent.
-            </p>
-          </section>
+          </div>
+        </section>
 
-          <section class="step" data-step="3" data-time="2022-23">
-            <p class="chapter-label">The larger pattern</p>
-            <h2>Her story is personal, but the pressure is not rare.</h2>
-            <div class="stat-grid">
-              <figure>
-                <strong>16%</strong>
-                <figcaption>
-                  U.S. child poverty rate in 2022 among children under 18 living with a related householder.
-                  <small>Source: NCES, Report on the Condition of Education 2024, fig. 1.</small>
-                </figcaption>
-              </figure>
-              <figure>
-                <strong>10%</strong>
-                <figcaption>
-                  13-year-olds who reported missing 5 or more school days in the previous month in 2023, double the 2020 rate.
-                  <small>Source: NCES, 2024, NAEP long-term trend summary.</small>
-                </figcaption>
-              </figure>
-              <figure>
-                <strong>81%</strong>
-                <figcaption>
-                  2021-22 graduation rate for economically disadvantaged public high school students.
-                  <small>Source: NCES, 2024, High School Persistence and Completion.</small>
-                </figcaption>
-              </figure>
-              <figure>
-                <strong>68%</strong>
-                <figcaption>
-                  2021-22 graduation rate for enrolled homeless students.
-                  <small>Source: NCES, 2024, High School Persistence and Completion.</small>
-                </figcaption>
-              </figure>
-            </div>
-            <figure class="report-figure report-figure-inline">
-            <img src="assets/nces-poverty-map-crop.png?v=20260610-1" alt="NCES map showing child poverty rates by state in 2022.">
-              <figcaption>
-                <strong>Where child poverty is concentrated</strong>
-                <span>Official NCES figure showing the share of children under 18 living in poverty by state or jurisdiction in 2022.</span>
-                <small>Source: NCES, Report on the Condition of Education 2024, figure 1.</small>
-              </figcaption>
-            </figure>
-          </section>
-
-          <section class="step" data-step="4" data-time="11:58 PM">
+        <section class="story-panel panel-home" aria-label="Scene 4">
+          <div class="panel-inner">
             <p class="chapter-label">Scene 4</p>
-            <h2>She is not choosing between school and work. She is choosing which need becomes urgent first.</h2>
-            <p>
-              After school, Mia cooks dinner for her siblings, helps her youngest brother with addition and
-              subtraction, and then helps her mother translate bills that arrived in the mail. Her mother,
-              exhausted from work, asks how school is going and then needs help translating the bills in Spanish.
-            </p>
-            <p>
-              The next day in class, Ms. Miller asks the students how their essays are going and says she wants
-              to hear their thoughts on the American education system. Carter says school is fair if you study
-              hard enough, and Mia finally raises her hand.
-            </p>
-            <p>
-              She says she does not fully agree. Hard work matters, but some students have to work hard just to
-              reach the starting line everyone else begins at. Mia cares deeply about school. She is simply
-              carrying more than a worksheet can show.
-            </p>
-          </section>
-        </article>
-      </section>
+            <h2>By night, she is still translating, cooking, helping, and caring for her family.</h2>
+          </div>
+        </section>
 
-      <section class="data-story" aria-labelledby="data-title">
+        <section class="story-panel panel-classroom" aria-label="Scene 5">
+          <div class="panel-inner">
+            <p class="chapter-label">Scene 5</p>
+            <h2>"Some students work hard just to get to the starting line."</h2>
+          </div>
+        </section>
+
+        <section class="story-panel panel-data" aria-label="Scene 6">
+          <div class="panel-inner">
+            <p class="chapter-label">Scene 6</p>
+            
+            <p class="panel-copy panel-copy-emphasis">
+              For students like Mia, the lack of institutional support can make it difficult to demonstrate their abilities,
+              even when they are highly capable and hardworking.
+            </p>
+          
+          </div>
+        </section>
+
+
+
+      <section class="data-story" id="stats" aria-labelledby="data-title">
         <div class="data-intro">
-          <p class="chapter-label">By the numbers</p>
-          <h2 id="data-title">The story in official figures</h2>
+          <p class="chapter-label">Statistics page</p>
+          <h2 id="data-title">The graphs behind the story</h2>
           <p>
-            These are real figure images from NCES materials, placed here instead of decorative charts.
-            Together they show how income, geography, school access, spending, and dropout rates shape educational opportunity.
+            These statistical figures from NCES show how educational opportunity is shaped by income, geography, school access, spending, and dropout rates.
           </p>
         </div>
 
         <div class="figure-gallery">
           <figure class="report-figure">
-            <img src="assets/nces-young-children-income-crop.png?v=20260610-1" alt="NCES chart showing school enrollment of young children by family income and school control in 2022.">
+            <img src="assets/nces-young-children-income-crop.png?v=20260610-2" alt="NCES chart showing school enrollment of young children by family income and school control in 2022.">
             <figcaption>
               <strong>Early school access changes by income</strong>
-              <span>For 3- to 4-year-olds in 2022, higher-income families had much higher private-school enrollment than families below the poverty threshold.</span>
+              <span>School access already looks different by income long before college becomes part of the conversation.</span>
               <small>Source: NCES, Report on the Condition of Education 2024, figure 3.</small>
             </figcaption>
           </figure>
 
           <figure class="report-figure">
-            <img src="assets/nces-spending-map-crop.png?v=20260610-1" alt="NCES map showing total expenditures per pupil by state in the 2020-21 school year.">
+            <img src="assets/nces-spending-map-crop.png?v=20260610-2" alt="NCES map showing total expenditures per pupil by state in the 2020-21 school year.">
             <figcaption>
               <strong>School funding is uneven</strong>
-              <span>Public-school spending per pupil varies widely across states, which affects the resources students experience every day.</span>
+              <span>What students can access depends partly on how their schools are resourced in the first place.</span>
               <small>Source: NCES, Report on the Condition of Education 2024, figure 10.</small>
             </figcaption>
           </figure>
 
           <figure class="report-figure">
-            <img src="assets/nces-dropout-rates-crop.png?v=20260610-1" alt="NCES bar chart showing status dropout rates by race and ethnicity in 2012 and 2022.">
+            <img src="assets/nces-dropout-rates-crop.png?v=20260610-2" alt="NCES bar chart showing status dropout rates by race and ethnicity in 2012 and 2022.">
             <figcaption>
               <strong>Dropping out is not evenly distributed</strong>
-              <span>Dropout rates fell overall from 2012 to 2022, but they remained higher for some groups than for others.</span>
+              <span>Educational outcomes reflect unequal conditions, not just unequal effort.</span>
               <small>Source: NCES, Report on the Condition of Education 2024, figure 13.</small>
             </figcaption>
           </figure>
 
           <figure class="report-figure">
-            <img src="assets/nces-figure-1-poverty-map.png?v=20260610-1" alt="Full NCES report page showing the child poverty figure by state.">
+            <img src="assets/nces-figure-1-poverty-map.png?v=20260610-2" alt="Full NCES report page showing the child poverty figure by state.">
             <figcaption>
-              <strong>Full report figure</strong>
-              <span>This full page is included so the original title, legend, and report styling remain visible in the project.</span>
+              <strong>Full poverty figure</strong>
+              <span>The original NCES page stays visible here so the report framing and legend are easy to read.</span>
               <small>Source: NCES, Report on the Condition of Education 2024, figure 1.</small>
             </figcaption>
           </figure>
         </div>
       </section>
 
-      <section class="turning-point" aria-labelledby="turning-title">
-        <div>
-          <p class="chapter-label">Counterstory</p>
-          <h2 id="turning-title">What changes when someone asks a better question?</h2>
-        </div>
-        <p>
-          Instead of asking, "Why is Mia not doing enough?" a counselor asks, "What is taking her time,
-          and what support would help her use her abilities fully?"
-        </p>
-        <div class="support-grid">
-          <article>
-            <span>01</span>
-            <h3>Language support</h3>
-            <p>Translation, interpretation, and bilingual communication make school feel usable instead of punishing.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>Access to AP classes</h3>
-            <p>Students should not be locked out of advanced courses because their school only offers a handful.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>Flexible pathways</h3>
-            <p>Robotics, tutoring, and college prep work best when schools adapt to students' jobs, care work, and home responsibilities.</p>
-          </article>
-        </div>
-      </section>
+<section class="story-panel panel-sat" aria-label="SAT statistics">
+  <div class="panel-inner">
+    <p class="chapter-label">SAT statistics From the New York Times</p>
+    <div class="ending-stat-row">
+      <img
+        class="ending-stat-image"
+        src="assets/sat statistic.png"
+        alt="SAT statistic about educational inequality"
+      >
+      <img
+        class="ending-stat-image"
+        src="assets/sat statistic 2.png"
+        alt="SAT statistic about educational inequality"
+      >
+    </div>
+  </div>
+</section>
 
-      <section class="ending" aria-labelledby="ending-title">
-        <p class="chapter-label">Final frame</p>
-        <h2 id="ending-title">Mia does not need a rescue story.</h2>
+<section class="story-panel panel-ending" aria-label="Final frame">
+  <div class="panel-inner">
+    <p class="chapter-label">Final frame</p>
+    <h2 class="ending-heading">The impact I hope my counterstory will have is to encourage policymakers and educators to think more critically about equity in education and to push for reforms that provide more support for marginalized students.</h2>
+    <div class="ending-boxes">
+      <div class="ending-box">
+        <p class="ending-box-title">This could include:</p>
+        <ul class="ending-list">
+          <li>Increased funding for under-resourced schools</li>
+          <li>Stronger bilingual and English-language learner programs</li>
+          <li>Improved access to college counseling</li>
+          <li>Policies that recognize students' different starting points rather than assuming all students have equal opportunities</li>
+        </ul>
+      </div>
+      <div class="ending-box">
         <p>
-          She needs adults who can read the whole page: the daughter, the babysitter, the English learner,
-          the worker, and the future engineer. The counterstory is not that Mia lacks talent. It is that
-          opportunity should not depend on how much invisible labor a student can hide.
+          More broadly, I hope my counterstory brings awareness and encourages readers to move beyond blaming individuals for educational struggles and instead consider how institutions and policies contribute to inequality.
         </p>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       <section class="sources" id="sources" aria-labelledby="sources-title">
         <p class="chapter-label">Research + Credits</p>
         <h2 id="sources-title">Sources used</h2>
         <ul>
           <li>
-            NCES. <a href="https://nces.ed.gov/pubs2024/2024144.pdf" target="_blank" rel="noreferrer">
-            Report on the Condition of Education 2024</a>. Used for child poverty, attendance, NAEP, and graduation-rate statistics.
+            NCES. <a href="https://nces.ed.gov/pubs2024/2024144.pdf" target="_blank" rel="noreferrer">Report on the Condition of Education 2024</a>.
           </li>
           <li>
-            The Hechinger Report. <a href="https://hechingerreport.org/student-voice-if-you-want-students-like-me-to-succeed-theres-a-policy-decision-that-works-doubling-pell-grants/" target="_blank" rel="noreferrer">
-            Student Voice: Doubling Pell Grants</a>. Used as background on work, food, transportation, and school pressure.
+            The New York Times. <a href="https://www.nytimes.com/interactive/2023/10/23/upshot/sat-inequality.html" target="_blank" rel="noreferrer">SAT scores and inequality</a>.
           </li>
           <li>
-            The Hechinger Report. <a href="https://hechingerreport.org/student-voice-if-i-wanted-my-children-to-finish-high-school-and-go-to-college-i-had-to-model-the-path-for-them/" target="_blank" rel="noreferrer">
-            Student Voice: Breaking the cycle of poverty</a>. Used as background on family responsibility, work, and support systems.
-          </li>
-          <li>
-            The New York Times. <a href="https://www.nytimes.com/interactive/2019/11/19/nyregion/student-homelessness-nyc.html" target="_blank" rel="noreferrer">
-            Student Homelessness in NYC</a>. Used only as layout inspiration for a scroll-based story structure.
+            The New York Times. <a href="https://www.nytimes.com/interactive/2019/11/19/nyregion/student-homelessness-nyc.html" target="_blank" rel="noreferrer">Student Homelessness in NYC</a>.
           </li>
         </ul>
         <p class="source-note">
-          This is an educational project. The character Mia is fictional and should be described as a composite,
-          not as a real quoted interview subject.
+          Mia is a fictional composite character used for an educational project.
         </p>
       </section>
     </main>
 
-    <script src="script.js?v=20260610-1"></script>
+    <script src="./script.js?v=20260610-6"></script>
   </body>
 </html>
