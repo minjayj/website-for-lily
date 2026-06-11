@@ -24,7 +24,7 @@
       <div class="hero-overlay">
         <p class="eyebrow">A digital counterstory</p>
         <h1>After the Bell, the Work Begins.</h1>
-        <p class="hero-meta">June 2026 · Written and designed for a student digital story project</p>
+        <p class="hero-meta">Lily Yu · ENGL 281</p>
         <p class="hero-caption">
           Some students carry more than books: work shifts, family needs, missed buses, and homework waiting past midnight.
         </p>
@@ -58,17 +58,7 @@
             <div class="late-slip">Late</div>
           </div>
           <div class="scene scene-data" data-scene="3">
-            <div class="chart-card">
-              <p>Child poverty, U.S. average</p>
-              <strong>16%</strong>
-              <span>NCES, 2022</span>
-            </div>
-            <div class="bar-chart">
-              <span style="--h: 48%"></span>
-              <span style="--h: 64%"></span>
-              <span style="--h: 81%"></span>
-              <span style="--h: 68%"></span>
-            </div>
+            <img class="scene-report-image" src="assets/nces-poverty-map-crop.png" alt="">
           </div>
           <div class="scene scene-choice" data-scene="4">
             <div class="split-card school-card">Study</div>
@@ -151,6 +141,14 @@
                 </figcaption>
               </figure>
             </div>
+            <figure class="report-figure report-figure-inline">
+              <img src="assets/nces-poverty-map-crop.png" alt="NCES map showing child poverty rates by state in 2022.">
+              <figcaption>
+                <strong>Where child poverty is concentrated</strong>
+                <span>Official NCES figure showing the share of children under 18 living in poverty by state or jurisdiction in 2022.</span>
+                <small>Source: NCES, Report on the Condition of Education 2024, figure 1.</small>
+              </figcaption>
+            </figure>
           </section>
 
           <section class="step" data-step="4" data-time="11:58 PM">
@@ -170,58 +168,47 @@
       <section class="data-story" aria-labelledby="data-title">
         <div class="data-intro">
           <p class="chapter-label">By the numbers</p>
-          <h2 id="data-title">The story in statistics</h2>
+          <h2 id="data-title">The story in official figures</h2>
           <p>
-            These graphs use statistics from the NCES 2024 report. They show why a single grade
-            or absence mark can hide bigger pressures around poverty, time, and stability.
+            These are real figure images from NCES materials, placed here instead of decorative charts.
+            Together they show how income, geography, school access, spending, and dropout rates shape educational opportunity.
           </p>
         </div>
 
-        <div class="infographic-grid">
-          <figure class="info-card poverty-card">
-            <div class="donut" style="--percent: 16" aria-label="16 percent"></div>
+        <div class="figure-gallery">
+          <figure class="report-figure">
+            <img src="assets/nces-young-children-income-crop.png" alt="NCES chart showing school enrollment of young children by family income and school control in 2022.">
             <figcaption>
-              <strong>16% child poverty</strong>
-              <span>U.S. average for children under 18 living with a related householder in 2022.</span>
+              <strong>Early school access changes by income</strong>
+              <span>For 3- to 4-year-olds in 2022, higher-income families had much higher private-school enrollment than families below the poverty threshold.</span>
+              <small>Source: NCES, Report on the Condition of Education 2024, figure 3.</small>
+            </figcaption>
+          </figure>
+
+          <figure class="report-figure">
+            <img src="assets/nces-spending-map-crop.png" alt="NCES map showing total expenditures per pupil by state in the 2020-21 school year.">
+            <figcaption>
+              <strong>School funding is uneven</strong>
+              <span>Public-school spending per pupil varies widely across states, which affects the resources students experience every day.</span>
+              <small>Source: NCES, Report on the Condition of Education 2024, figure 10.</small>
+            </figcaption>
+          </figure>
+
+          <figure class="report-figure">
+            <img src="assets/nces-dropout-rates-crop.png" alt="NCES bar chart showing status dropout rates by race and ethnicity in 2012 and 2022.">
+            <figcaption>
+              <strong>Dropping out is not evenly distributed</strong>
+              <span>Dropout rates fell overall from 2012 to 2022, but they remained higher for some groups than for others.</span>
+              <small>Source: NCES, Report on the Condition of Education 2024, figure 13.</small>
+            </figcaption>
+          </figure>
+
+          <figure class="report-figure">
+            <img src="assets/nces-figure-1-poverty-map.png" alt="Full NCES report page showing the child poverty figure by state.">
+            <figcaption>
+              <strong>Full report figure</strong>
+              <span>This full page is included so the original title, legend, and report styling remain visible in the project.</span>
               <small>Source: NCES, Report on the Condition of Education 2024, figure 1.</small>
-            </figcaption>
-          </figure>
-
-          <figure class="info-card line-card">
-            <div class="mini-axis">
-              <span class="dot dot-2020">5%</span>
-              <span class="dot dot-2023">10%</span>
-              <i></i>
-            </div>
-            <figcaption>
-              <strong>Absences doubled</strong>
-              <span>13-year-olds reporting 5 or more missed school days in the previous month rose from 5% in 2020 to 10% in 2023.</span>
-              <small>Source: NCES, 2024, NAEP Long-Term Trend reading and mathematics results.</small>
-            </figcaption>
-          </figure>
-
-          <figure class="info-card bar-card">
-            <div class="bars" aria-label="Graduation rate bar graph">
-              <div style="--value: 87"><span>87%</span><em>U.S. average</em></div>
-              <div style="--value: 81"><span>81%</span><em>Economically disadvantaged</em></div>
-              <div style="--value: 68"><span>68%</span><em>Enrolled homeless</em></div>
-            </div>
-            <figcaption>
-              <strong>Graduation rates are not equal</strong>
-              <span>In 2021-22, the public high school graduation rate was lower for economically disadvantaged and enrolled homeless students.</span>
-              <small>Source: NCES, 2024, High School Persistence and Completion.</small>
-            </figcaption>
-          </figure>
-
-          <figure class="info-card score-card">
-            <div class="score-drop">
-              <span>Reading<br><b>-4 pts</b></span>
-              <span>Math<br><b>-9 pts</b></span>
-            </div>
-            <figcaption>
-              <strong>Learning losses were measurable</strong>
-              <span>Average scores for 13-year-olds declined from 2020 to 2023: 4 points in reading and 9 points in mathematics.</span>
-              <small>Source: NCES, 2024, NAEP Long-Term Trend assessment summary.</small>
             </figcaption>
           </figure>
         </div>

@@ -688,6 +688,17 @@ p {
   border: 3px solid var(--ink);
 }
 
+.scene-report-image {
+  position: absolute;
+  inset: 8% 7%;
+  width: 86%;
+  height: 84%;
+  object-fit: cover;
+  border: 4px solid var(--ink);
+  border-radius: 1rem;
+  box-shadow: 14px 14px 0 rgba(33, 24, 15, 0.22);
+}
+
 .split-card {
   position: absolute;
   top: 28%;
@@ -807,6 +818,56 @@ figcaption small,
 
 .data-intro {
   max-width: 58rem;
+}
+
+.figure-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.report-figure {
+  margin: 2rem 0 0;
+  padding: 0.9rem;
+  background: var(--paper-soft);
+  border: 2px solid rgba(33, 24, 15, 0.52);
+  border-radius: 1.4rem;
+  box-shadow: var(--shadow);
+}
+
+.data-story .report-figure {
+  margin-top: 0;
+  box-shadow: none;
+}
+
+.report-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.8rem;
+  border: 1px solid rgba(33, 24, 15, 0.18);
+}
+
+.report-figure figcaption {
+  display: grid;
+  gap: 0.4rem;
+  margin-top: 0.9rem;
+}
+
+.report-figure strong {
+  font-family: var(--serif);
+  font-size: 1.55rem;
+  line-height: 1.05;
+}
+
+.report-figure span {
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+.report-figure-inline {
+  max-width: 54rem;
 }
 
 .infographic-grid {
@@ -1032,12 +1093,17 @@ figcaption small,
 
   .stat-grid,
   .support-grid,
-  .infographic-grid {
+  .infographic-grid,
+  .figure-gallery {
     grid-template-columns: 1fr;
   }
 
   .info-card {
     min-height: auto;
+  }
+
+  .report-figure-inline {
+    max-width: none;
   }
 }
 
